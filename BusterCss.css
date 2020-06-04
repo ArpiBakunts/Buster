@@ -1,0 +1,203 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lusitana', sans-serif;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    line-height: 1.2;
+}
+
+blockquote {
+    margin: 0 1.5em;
+    font-style: italic;
+    color: #888;
+    font-size: 120%;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #fff;
+}
+
+img {
+    height: auto;
+    border-radius: 50px;
+}
+
+a {
+    color: #000;
+    opacity: 1;
+    -webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -o-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+}
+
+a:hover {
+    opacity: 0.5;
+    -webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -o-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+}
+
+a:hover,
+a:active {
+    outline: 0;
+}
+
+.main-navigation {
+    clear: both;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.main-navigation ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.main-navigation li {
+    position: relative;
+}
+
+.main-navigation a {
+    font-family: 'Lusitana', sans-serif;
+    font-size: 17px;
+    line-height: 1.2;
+    padding: 2px 0;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+.main-navigation ul {
+    display: block;
+}
+
+.align-center {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-header {
+    background-image: url(Buster.jpg);
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    bottom: 0;
+    width: 50%;
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    text-align: right;
+    overflow: scroll;
+    opacity: 80%;
+}
+
+.site-title {
+    font-family: 'Lusitana', sans-serif;
+    font-size: 70px;
+    line-height: 1;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: white;
+    opacity: 70%;
+}
+
+.site-description {
+    color: #fff;
+    font-style: italic;
+    line-height: 1.2;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.site-content {
+    width: 100%;
+    padding-left: 50%;
+}
+
+.content-area {
+    padding: 60px 40px;
+}
+
+#history {
+    margin-bottom: 30px;
+}
+
+#history .dog-age h5 {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+#history .dog-age {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.dog-age {
+    position: relative;
+}
+
+h5 span.date {
+    float: right;
+    padding: 0;
+}
+
+.dog-age h6 {
+    color: #aaaaaa;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.dog-age p,
+.dog-age h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.dog-age-button {
+    position:relative;
+    left: 35%;
+    width: 200px;
+    font-size: 15px;
+    color: saddlebrown;
+    background-color: blanchedalmond;
+    line-height: 2;
+    border-color: blanchedalmond;
+    border-radius: 50px;
+}
+
+.dog-age-button:hover {
+    opacity: 0.5;
+    -webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -o-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+}
+
+button {
+    outline: none;
+}
+
