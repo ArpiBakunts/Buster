@@ -111,7 +111,6 @@ a:active {
     background-position: center center;
     padding: 20px;
     text-align: right;
-    overflow: scroll;
     opacity: 80%;
 }
 
