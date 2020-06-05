@@ -20,6 +20,8 @@ blockquote {
 
 html {
     box-sizing: border-box;
+    overflow: auto;
+    overflow-x: hidden;
 }
 
 *,
@@ -96,6 +98,7 @@ a:active {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    opacity: 80%;
 }
 
 .site-header {
@@ -114,7 +117,7 @@ a:active {
 
 .site-title {
     font-family: 'Lusitana', sans-serif;
-    font-size: 70px;
+    font-size:5vw;
     line-height: 1;
     margin-bottom: 20px;
     font-style: italic;
@@ -160,7 +163,7 @@ a:active {
 .dog-age-button {
     position:relative;
     left: 35%;
-    width: 200px;
+    width:10vw;
     font-size: 15px;
     color: saddlebrown;
     background-color: blanchedalmond;
